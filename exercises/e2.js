@@ -11,15 +11,19 @@
 */
 
 // Your function code starts here...
+function rectArea(m, v) {
+  return m * v;
+}
 
-f
 // Use the function you created above to calculate the areas of 3 rooms
 // Assign the results to room1, room2, and room3 variables
 // Data for calculation: room1: 4 by 6, room2: 13 by 3, room3: 4 by 8
 
 // Your code goes here:
 
-
+function rectArea(m, v) {
+  return m * v;
+}
 
 /**
  * =============================================================
@@ -33,7 +37,13 @@ f
 
 // Your code goes here...
 
+function rectArea(m, v) {
+  return m * v;
+}
 
+function allArea(room1, room2, room3) {
+  return room1 + room2 + room3;
+}
 
 // Make the function call in the parentheses of the console.log statement.
 // Use room1, room2, room3 variables as arguments for the function call
