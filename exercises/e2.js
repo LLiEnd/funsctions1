@@ -12,7 +12,7 @@
 
 // Your function code starts here...
 
-
+f
 // Use the function you created above to calculate the areas of 3 rooms
 // Assign the results to room1, room2, and room3 variables
 // Data for calculation: room1: 4 by 6, room2: 13 by 3, room3: 4 by 8
