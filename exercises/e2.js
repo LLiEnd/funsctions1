@@ -38,7 +38,7 @@ const room3 = rectArea(4, 8);
 // Your code goes here...
 
 
-function totalRoomsArea(roomArea1, roomaArea2, roomArea3) {
+function totalRoomsArea(roomArea1, roomArea2, roomArea3) {
   return roomArea1 + roomArea2 + roomArea3;
 }
 

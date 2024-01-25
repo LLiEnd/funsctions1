@@ -78,7 +78,7 @@ function logMessageWithMyName(name) {
 // Your code goes here...
 
 function logMyInfo(name, age) {
-  console.log(`may name is ${name}. I am ${age} years old!`);
+  console.log(`my name is ${name}. I am ${age} years old!`);
 }
 
 // var line = logMyInfo('my name is', ' and');
