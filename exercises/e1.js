@@ -15,12 +15,10 @@
 
 // Your code goes here
 
-function logMessage(h, w) {
-  return h + w;
+function logMessage() {
+  console.log('hello, world')
 }
-var block = logMessage('hello,', ' world');
 
-console.log(block)
 
 
 
@@ -38,8 +36,8 @@ console.log(block)
 // Your code goes here...
 
 
-function logMyMessage(h, w) {
-  return h + w;
+function logMyMessage(message) {
+  console.log(message);
 }
 // var block = logMyMessage('i log my', ' first message!');
 
@@ -57,8 +55,8 @@ function logMyMessage(h, w) {
 
 // Your code goes here...
 
-function logMessageWithMyName(h, w) {
-  return h + w;
+function logMessageWithMyName(name) {
+  console.log("my name is" + name + "!")
 }
 
 // var block = logMessageWithMyName('my name is', ' Andrey');
@@ -79,8 +77,8 @@ function logMessageWithMyName(h, w) {
 
 // Your code goes here...
 
-function logMyInfo(m, v) {
-  return m + v;
+function logMyInfo(name, age) {
+  console.log(`may name is ${name}. I am ${age} years old!`);
 }
 
 // var line = logMyInfo('my name is', ' and');

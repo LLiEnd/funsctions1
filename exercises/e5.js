@@ -14,10 +14,10 @@
 // Your code goes here...
 
 function getDiffTwentySeven(a, b) {
-  if (a >= b) {
-    return (a - b) * 2;
-  } else if (a <= b) {
-    return b - a;
+  if (a > 27) {
+    return (a - 27) * 2;
+  } else {
+    return 27 - a;
   }
 }
 
@@ -33,9 +33,9 @@ function getDiffTwentySeven(a, b) {
 
 function sumOfTwoIntegers(a, b) {
   if (a === b) {
-    return (a + b);
-  } else if (a !== b) {
     return (a + b) * 3;
+  } else if (a !== b) {
+    return (a + b);
   }
 }
 
